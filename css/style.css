@@ -1,0 +1,58 @@
+:root{
+ --whithe: #ffffff;
+ --black: #080808;
+ --Ligth-gray:#b7cbf4d6; 
+ --outfit: 'outfit'
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-size: 62.5%;
+    font-family: var(--outfit);
+}
+.container {
+    width: 100vw;
+    height: 100vh;
+    min-width: 290px;
+    background-color: var(--Ligth-gray);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card{
+    width: 280px;
+    height: 450px;
+    padding: 0.1rem;
+    border-radius: 1.8rem;
+    background-color: var(--whithe);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;    
+    box-shadow: 0 4 8 rgba(89, 73, 30, 0.16);
+}
+
+.image-card {
+    width: 250px;
+    border-radius: 0.8rem;
+}
+.title-card{
+    font-size: 2rem;
+    font-weight: 700;
+    text-align: center;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+.card-description{
+    font-size: 1.5rem;
+    color: rgb(168, 166, 166);
+    font-weight: 400;
+    text-align: center;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
